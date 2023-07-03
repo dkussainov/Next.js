@@ -24,6 +24,9 @@ export const PATCH = async (request, { params }) => {
 
     if (!existingPrompt)
       return new Response("Prompt not found", { status: 404 });
+
+    //stopped at 2:51
+
   } catch {}
 };
 
